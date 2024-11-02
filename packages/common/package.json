@@ -1,0 +1,18 @@
+{
+  "name": "common",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "main": "./dist/common.js",
+  "types": "./dist/main.d.ts",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "typescript": "~5.6.2",
+    "vite": "^5.4.10",
+    "vite-plugin-dts": "^4.3.0"
+  }
+}
